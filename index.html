@@ -2,32 +2,74 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>TwitterClone</title>
   </head>
   <body>
     <main id="wrapper">
       <section id="leftSection">
-        <h2 id="interest">Follow your interests</h2>
-        <h2 id="listen">Hear what people are talking about</h2>
-        <h2 id="connect">Join the conversation</h2>
+
+        <div id="followWrapper">
+          <img src="search.png" alt="search">
+          <h2 id="interest">Follow your interests</h2>
+        </div>
+
+        <div id="listenWrapper">
+          <img src="user.png" alt="">
+          <img src="user.png" alt="">
+          <h2 id="listen">Hear what people are talking about</h2>
+        </div>
+
+        <div class="chatWrapper">
+          <img src="speech.png" alt="">
+          <p id="connect">Join the conversation</p>
+        </div>
+
       </section>
 
       <section id="rightSection">
+
         <div class="wrapperTopRight">
           <input type="text" id="user" placeholder="Phone, e-mail or username">
           <input type="password" id="password" placeholder="password">
           <button type="submit" id="logIn1">Log in</button>
           <a href="#">Forgot password</a>
         </div>
+
         <div class="wrapperMiddleRight">
+          <img src="twitter.png" alt="">
           <h1 id="headline">See what´s happening in the world right now</h1>
           <h3 id="underline">Join Twitter today</h3>
           <button type="submit" id="signUp">Sign Up</button>
           <button type="submit" id="logInMiddle">Log in</button>
         </div>
 
-
       </section>
     </main>
+
+    <footer>
+      <a href="#">About</a>
+      <a href="#">Help Center</a>
+      <a href="#">Blog</a>
+      <a href="#">Status</a>
+      <a href="#">Jobs</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Cookies</a>
+      <a href="#">Ads info</a>
+      <a href="#">Brand</a>
+      <a href="#">Apps</a>
+      <a href="#">Advertise</a>
+      <a href="#">Marketing</a>
+      <a href="#">Businesses</a>
+      <a href="#">Developers</a>
+      <a href="#">Directory</a>
+      <a href="#">Settings</a>
+      <p>© 2019 Twitter</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js.js">
+    </script>
   </body>
 </html>

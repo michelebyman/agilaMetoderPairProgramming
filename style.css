@@ -1,0 +1,19 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Left section */
+#leftSection {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#rightSection {
+    background-color: lightpink;
+}

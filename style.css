@@ -27,7 +27,7 @@
 
 .fa-twitter{
   color: #1b95e0;
-  font-size: 6000%;
+  font-size: 5500%;
   position: absolute;
   left: 10%;
   top: -18%;
@@ -37,6 +37,8 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
+  background-color: white;
 
 }
 
@@ -46,7 +48,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
- 
+
 }
 
 #link-wrapper a, #link-wrapper span {
@@ -78,4 +80,30 @@ h2 {
 
 .wrapperFlex {
   display: flex;
+}
+
+.wrapperTopRight {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#password {
+  position: relative;
+}
+
+#forgotPassword {
+  position: absolute;
+  top: 65px;
+  right: 330px;
+  text-decoration: none;
+  color: lightgrey;
+}
+
+#forgotPassword:hover {
+  border-bottom: 1px solid lightgrey;
+}
+
+/*#logIn1 {
+  transition-duration: 10s;
 }

@@ -11,19 +11,12 @@ $('#leftSection').css({
 
 $('#rightSection').css({
     width: '50%',
-    height: '100%'
+    height: '100%',
+    zIndex: "1",
+    backgroundColor: "white"
 })
 
 $('.iconSize').css({
-    width: '25px',
-    height: '25px'
-
+  fontSize: "35px",
+  marginTop: '20px'
 });
-
-$('.infoWrapper').css({
-    display: 'flex',
-    width: '500px',
-    marginTop: '20px',
-    color: 'white'
-});
-

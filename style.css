@@ -15,18 +15,39 @@
     position: relative;
 }
 
-#rightSection {
-
-}
 
 .fa-twitter{
   color: #1b95e0;
-  font-size: 1000px;
+  font-size: 6000%;
   position: absolute;
-  left: 80px;
-  top: -30%;
+  left: 10%;
+  top: -18%;
+
 }
 
 footer{
-  
+
+}
+
+h2 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+#marginMiddle {
+  margin-left: 20%;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.wrapperFlex {
+  display: flex;
 }

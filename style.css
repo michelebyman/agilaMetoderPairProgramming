@@ -7,13 +7,26 @@
 
 /* Left section */
 #leftSection {
-    background-color: lightskyblue;
+    background-color: #1da1f2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 #rightSection {
-    background-color: lightpink;
+
+}
+
+.fa-twitter{
+  color: #1b95e0;
+  font-size: 1000px;
+  position: absolute;
+  left: 80px;
+  top: -30%;
+}
+
+footer{
+  
 }

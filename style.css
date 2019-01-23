@@ -15,6 +15,15 @@
     position: relative;
 }
 
+#rightSection {
+  border-bottom: 1px solid lightgrey;
+}
+
+#wrap-all {
+  display: flex;
+  height:100vh;
+}
+
 
 .fa-twitter{
   color: #1b95e0;
@@ -22,12 +31,31 @@
   position: absolute;
   left: 10%;
   top: -18%;
-
 }
 
 footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
+
+#link-wrapper {
+  width: 1300px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+#link-wrapper a, #link-wrapper span {
+  color:#aab8c2;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 15px 0 15px 0;
+}
+
 
 h2 {
   margin-left: 20px;

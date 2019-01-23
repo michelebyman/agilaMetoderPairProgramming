@@ -14,7 +14,11 @@ $('#leftSection').css({
 $('#rightSection').css({
     width: '50%',
     zIndex: "1",
-    backgroundColor: "white"
+    backgroundColor: "white",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center"
 });
 
 $('.inputs').css({
